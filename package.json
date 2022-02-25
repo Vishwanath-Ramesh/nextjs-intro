@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-intro",
+  "version": "1.0.0",
+  "description": "A simple NextJS app created while learning Introduction to Next.jsIntroduction to Next.js from FrontendMasters",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishwanath-Ramesh/nextjs-intro.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "ReactJS",
+    "NextJS"
+  ],
+  "author": "Vishwanath R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishwanath-Ramesh/nextjs-intro/issues"
+  },
+  "homepage": "https://github.com/Vishwanath-Ramesh/nextjs-intro#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "next": "^12.1.0",
+    "next-connect": "^0.12.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "dotenv-load": "^2.0.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-env": "^1.1.1",
+    "webpack-bundle-analyzer": "^4.5.0"
+  }
+}
