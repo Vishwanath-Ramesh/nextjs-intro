@@ -30,7 +30,7 @@ export default () => {
 
 export async function getServerSideProps({ params, req, res }) {
   const response = await fetch(
-    `${process.env.VERCEL_URL}/api/notes/${params.id}`
+    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/notes/${params.id}`
   );
 
   if (!response.ok) {
