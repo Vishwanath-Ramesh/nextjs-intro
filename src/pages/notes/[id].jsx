@@ -29,7 +29,9 @@ export default () => {
 };
 
 export async function getServerSideProps({ params, req, res }) {
-  const response = await fetch(`${process.env.VERCEL_URL}/notes/${params.id}`);
+  const response = await fetch(
+    `${process.env.VERCEL_URL}/api/notes/${params.id}`
+  );
 
   if (!response.ok) {
     res.writeHead(302, { Location: "/notes" });

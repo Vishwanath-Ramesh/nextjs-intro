@@ -20,7 +20,7 @@ export default ({ notes }) => {
 };
 
 export async function getServerSideProps() {
-  const res = await fetch(`${process.env.VERCEL_URL}/notes/`);
+  const res = await fetch(`${process.env.VERCEL_URL}/api/notes/`);
   const { data } = await res.json();
   return {
     props: { notes: data },
